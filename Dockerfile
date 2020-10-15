@@ -4,3 +4,5 @@ COPY ${JAR_FILE} app.jar
 EXPOSE 8080
 #注意需要增加-Dspring.profiles.active=docker，来制定docker部署模式下的配置信息
 ENTRYPOINT ["java","-jar","/app.jar"]
+
+RUN /bin/cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime && echo 'Asia/Shanghai' >/etc/timezone
