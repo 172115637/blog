@@ -17,4 +17,4 @@ logging:
 server:
   servlet:
     context-path: /api
-  port: 1212
+  port: 8080
