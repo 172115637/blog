@@ -1,0 +1,20 @@
+spring:
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+    default-property-inclusion: non_null
+  application:
+    name: zjjhyzd-blog
+  datasource:
+    username: root
+    password: 123456
+    url: jdbc:mysql://192.168.202.112:3306/blog?useUnicode=true&characterEncoding=gbk&autoReconnect=true&failOverReadOnly=false&useSSL=false
+    driver-class-name: com.mysql.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+logging:
+  level:
+    com.zjjhyzd.blog: DEBUG
+server:
+  servlet:
+    context-path: /api
+  port: 1212
