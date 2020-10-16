@@ -1,4 +1,9 @@
 spring:
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
+      enabled: true
   jackson:
     date-format: yyyy-MM-dd HH:mm:ss
     time-zone: GMT+8
@@ -27,3 +32,13 @@ user:
   qrCodeUrl: https://www.17sucai.com/preview/177065/2017-09-28/Mon9/static/img/qq-group.jpg
   username: admin
   weiboUrl: /
+aliyun:
+  oss:
+    access-key: LTAI62tV1Ikh6vM5
+    secret-key: ioSSkSJrRuNSaar94A61fq7LCWB51x
+    endpoint: oss-cn-shenzhen.aliyuncs.com
+    bucket-name: lizhixiang
+    base-path: www/blog
+    domain: http://blog.zjjhyzd.com
+temp:
+  path: E:\temp
