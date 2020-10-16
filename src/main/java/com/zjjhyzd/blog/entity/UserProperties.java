@@ -7,7 +7,6 @@ import org.springframework.stereotype.Component;
 
 @Data
 @Component
-@PropertySource("classpath:/user.properties")
 @ConfigurationProperties(prefix = "user")
 public class UserProperties {
     private String username;

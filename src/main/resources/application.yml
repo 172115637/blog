@@ -18,3 +18,12 @@ server:
   servlet:
     context-path: /api
   port: 8080
+user:
+  autograph: 我爱学习，学习爱我
+  githubUrl: https://github.com/172115637
+  headimg: https://avatars1.githubusercontent.com/u/14285531?v=4
+  nickname: lizhixiang
+  password: 123456
+  qrCodeUrl: https://www.17sucai.com/preview/177065/2017-09-28/Mon9/static/img/qq-group.jpg
+  username: admin
+  weiboUrl: /
